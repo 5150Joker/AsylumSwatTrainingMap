@@ -1,0 +1,30 @@
+A mission made in a joint effort by Briland and Skalicon from Asylum Gaming (www.gaming-asylum.com) intended to be used as a training mission for the Asylum Police Department SWAT Team.
+
+V1.0
+Inital Release and use
+
+V1.1
+Added mission.sqm files from Asylum live servers
+Added SWAT uniform skin
+Standardized scipt calls into function calls
+Added plywood killhouses with targets
+Made loadouts load based on the slot you are in.
+
+V1.2
+Fixed Squad leader slots not loading a loadout
+Fixed Medic getting the heal option on objects other than damaged players
+Medic no longer gets a FAK
+Magazines already loadedd into guns on spawn.
+
+V1.3
+Fixed loadout naming convention
+Added OpFOR
+Fixed Heal script
+Added parachute scripts
+Addded Teleport Scripts
+Changed function calls from swat to ast
+players now pull out rifle on spawn
+
+V1.3.1
+Admins now spawn with gear
+Fixed parachute script

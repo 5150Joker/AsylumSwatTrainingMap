@@ -1,0 +1,34 @@
+author = "Briland and Skalicon";
+onLoadMission = "Asylum Special Weapons and Tactics training map v1.3.1";
+OnLoadName = "Asylum SWAT Training";
+respawn = BASE;
+respawndelay = 1;
+disabledAI = true;
+
+#include "dialog\common.hpp"
+#include "VVS\menu.h"
+#include "VAS\menu.hpp"
+#include "dialog\ui.hpp"
+
+class RscTitles
+{
+	#include "dialog\ui.hpp"
+	#include "dialog\progress.hpp"
+};
+
+class CfgFunctions
+{ 
+  #include "Functions.hpp"
+	#include "VVS\Functions.h"
+	#include "VAS\cfgfunctions.hpp"	
+};
+
+class CfgSounds
+{
+  class Flashbang
+  {
+    name = "Flashbang";
+    sound[] = {"\sounds\flashbang.ogg", 1.0, 1};
+    titles[] = {};
+  };
+ };
